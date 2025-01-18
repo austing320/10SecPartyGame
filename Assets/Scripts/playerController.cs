@@ -23,7 +23,7 @@ public class playerController : MonoBehaviour
         float move = Input.GetAxis("Horizontal");
         rb.velocity= new Vector2(move * speed, rb.velocity.y);
 
-        if(Input.GetButtonDown("Jump") && isGrounded)
+        if(Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
         }
