@@ -9,11 +9,6 @@ public class timer : MonoBehaviour
     public float timeRemaining = 10f;
     public Text timerText;
 
-    void Start()
-    {
-
-    }
-
     void Update()
     {
         if (timeRemaining > 0)
