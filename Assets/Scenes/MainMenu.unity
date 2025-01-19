@@ -841,7 +841,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -406, y: 215}
+  m_AnchoredPosition: {x: -437, y: 225}
   m_SizeDelta: {x: 244.21, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2050452809
@@ -864,7 +864,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Welcome to Ball Jump!
+  m_text: 'Welcome to Stick Jump!
 
 '
   m_isRightToLeft: 0
@@ -929,7 +929,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -831.92316, w: 0}
+  m_margin: {x: 0, y: 0, z: -871.38934, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
